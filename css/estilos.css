@@ -1,3 +1,4 @@
+/*sección de arriba, donde está el menú y la barra de busqueda*/
 .barra_superior {
     display: flex;
     position:fixed;
@@ -31,6 +32,7 @@
     border: 0;
 }
 
+/*Aqui empieza la parte izquierda*/
 .barra_izquierda {
     display: flex;
     position: fixed;
@@ -84,13 +86,13 @@ ul {
     padding-top: 50px;
 }
 
-.bconfig {
+.bconfig { /*Botón de configuración*/
     padding: 5px 5px;
     border: none;
     background-color: #d09cb6;
 }
 
-.bcsesion {
+.bcsesion { /*Botón de Cerrar Sesión*/
     padding: 5px 5px;
     border: none;
     background-color: #69193d;
@@ -105,14 +107,15 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.tldr {
+.tldr { /*"Todos los derechos reservados"*/
     padding-top: 20px;
     margin-bottom: 0;
 }
-.mlc {
+.mlc { /*"miaulove"*/
     margin-top: 0;
 }
 
+/*Aqui comienza el centro de la página*/
 .centro {
     display: flex;
     flex-direction: column;
@@ -138,7 +141,7 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.b_centro {
+.b_centro { /*Botones del centro de la página*/
     background-color: #ce9cb6;
     border: none;
     padding: 10px 10px;
@@ -147,13 +150,13 @@ ul {
     margin-right: 5px;
 }
 
-#cat1, #cat2, #cat3, #cat4 {
+#cat1, #cat2, #cat3, #cat4 { /*Imágenes*/
     padding-top: 50px;
     width: 250px;
     padding-left: 15px;
 }
 
-#like1, #like2, #like3, #like4 {
+#like1, #like2, #like3, #like4 { /*Botónes de like*/
     display: inline;
     padding: 5px 104px;
     margin-left: 15px;
@@ -162,7 +165,7 @@ ul {
     background-color: #ffffff;
 }
 
-#primero, #segundo, #tercero, #cuarto {
+#primero, #segundo, #tercero, #cuarto { /*Texto de los botones*/
     display: inline;
 }
 

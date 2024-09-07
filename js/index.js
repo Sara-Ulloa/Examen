@@ -1,13 +1,16 @@
+//Alerta de cerrar sesión//
 let CerrarSesion= document.querySelector(".bcsesion")
 
 CerrarSesion.addEventListener("click",function(){
     alert("Sesión cerrada correctamente")
 })
 
+//Cambiar el color del botón al hacer click//
 function cambiarFondo(elemento){
     elemento.classList.add('extra');
 }
 
+//Aumentar los likes//
 let botones_Mg = document.querySelector('#like1');
 botones_Mg.addEventListener('click', function(){
     let botónmg = parseInt(document.querySelector('#primero'). textContent);
