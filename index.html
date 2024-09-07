@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiauLove</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+            <fieldset class="barra_superior">
+                <img src="img/menu.png" alt="menu" class="menu">
+                <input type="search" placeholder="Buscar" class="Buscar"><button class="bbuscar"><img src="img/buscar.png" alt="buscar"></button>
+            </fieldset>
+    </header>
+    <div>
+            <fieldset class="barra_izquierda">
+                <div class="div1">
+                <p class="miau"><b>miau</b></p>
+                <p class="love"><b>love</b></p>
+                <img src="img/logo.png" alt="logo" class="logo">
+                </div>
+                 <div class="div2">
+                     <ul>
+                        <li>Inicio</li>
+                        <li>Subir Imagen</li>
+                        <li>Contacto</li>
+                        <li>Favoritos</li>
+                        <li>Recientes</li>
+                     </ul>
+                </div>
+                 <div class="div3">
+                    <button class="bconfig">Configuración</button>
+                    <button class="bcsesion">Cerrar Sesión</button>
+                 </div>
+                 <div class="div4">
+                     <p class="tldr">Todos los derechos reservados</p>
+                    <p class="mlc">miaulove ©</p>
+                 </div>
+             </fieldset>
+    </div>
+    <aside>
+        <fieldset class="centro">
+            <p class="unete">¡Únete y comparte tu amor por los</p>
+            <p class="gatitos"><b>gatitos¡</b></p>
+            <div>
+                <button class="b_centro" onclick="cambiarFondo(this)"><b>Gatitos</b></button>
+                <button class="b_centro" onclick="cambiarFondo(this)"><b>Juveniles</b></button>
+                <button class="b_centro" onclick="cambiarFondo(this)"><b>Adultos</b></button>
+            </div>
+            <div class="imagenes">
+                <img id="cat1" src="img/gato1.jpg" alt="gato1">
+                <img id="cat2" src="img/gato2.jpg" alt="gato2">
+                <img id="cat3" src="img/gato3.png" alt="gato3">
+                <img id="cat4" src="img/gato4.png" alt="gato4">
+            </div>
+            <div>
+                <button id="like1"> <img src="img/like.png" alt="like1"><span id="primero">1</span></button>
+                <button id="like2"> <img src="img/like.png" alt="like2"><span id="segundo">2</span></button>
+                <button id="like3"> <img src="img/like.png" alt="like3"><span id="tercero">4</span></button>
+                <button id="like4"> <img src="img/like.png" alt="like4"><span id="cuarto">6</span></button>
+            </div>
+        </fieldset>
+    </aside>
+<script src="./js/index.js"></script>
+</body>
+</html>
